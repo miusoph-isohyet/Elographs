@@ -1,18 +1,18 @@
 
   function loadImageFromHTML() {
-    fetch('img/i9T9g.html')
+    fetch('img/1.html')
       .then(res => res.text())
       .then(html => {
         document.getElementById('image-container').innerHTML = html;
       });
   }
 
-  if (window.location.hash === '#i9T9g) {
+  if (window.location.hash === '#1') {
     loadImageFromHTML();
   }
 
   window.addEventListener('hashchange', () => {
-    if (window.location.hash === '#i9T9g') {
+    if (window.location.hash === '#1') {
       loadImageFromHTML();
     } else {
       document.getElementById('image-container').innerHTML = ''; // Optional: clear on other hash
