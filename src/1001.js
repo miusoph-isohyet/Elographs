@@ -1,5 +1,5 @@
 (() => {
-  const hashTrigger = '#1001';
+  const hashTrigger = '#1.717171717171717e+30';
   const targetHTML = '10001.html';
   const containerId = 'image-container';
 
