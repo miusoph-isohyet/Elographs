@@ -1,6 +1,6 @@
 (() => {
-  const hashTrigger = '#1111111100000001';
-  const targetHTML = '10000.html';
+  const hashTrigger = '#1.717171717171717e+30';
+  const targetHTML = '1001.html';
   const containerId = 'image-container';
 
   function injectHTML(file) {
