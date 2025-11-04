@@ -1,4 +1,4 @@
-  const hashTrigger = '#';
+  const hashTrigger = '';
 
   if (window.location.hash === hashTrigger) {
     fetch('img/0.html')
@@ -16,3 +16,4 @@
       });
 
   }
+
