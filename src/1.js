@@ -7,17 +7,18 @@
       });
   }
 
-  if (window.location.hash === '#1.717171717171717e+30') {
+  if (window.location.hash === '#1') {
     loadImageFromHTML();
   }
 
   window.addEventListener('hashchange', () => {
-    if (window.location.hash === '#1.717171717171717e+30') {
+    if (window.location.hash === '#1') {
       loadImageFromHTML();
     } else {
       document.getElementById('image-container').innerHTML = ''; // Optional: clear on other hash
     }
   });
+
 
 
 
